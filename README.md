@@ -1,2 +1,11 @@
 # qrcodef
 PROJET QRCODE
+
+LICENCE 1 - MI TD4
+
+GNICHI RIM 
+BACLE ARNAUD 
+
+
+
+
