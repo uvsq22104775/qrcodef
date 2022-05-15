@@ -1,12 +1,13 @@
-# qrcodef
-PROJET QRCODE
-*******************      Qrcode                    ********************
-         LICENCE 1 - Mathematique informatique groupe de TD4
+
+**********      Qrcode       *********
+        
+ LICENCE 1 - Mathematique informatique groupe de TD4
+        
 
 Etudiant du projet : GNICHI RIM et BACLE ARNAUD
 
 
-*************************************************************************
+******************************************************
 
 
 1) Dimension des coins de la matrice, fonction qui trouve le coin manquant, rotation de l'image
