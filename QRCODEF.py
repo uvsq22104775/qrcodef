@@ -276,12 +276,13 @@ def parcour_bloc(x,y):
 
 # Question 5 -- Afficher le contenu d’un QR code, en prenant en compte le type de données
 
-def contenu(liste1, liste2):
-    global symboles_hexadecimaux
+def symboles_hexadecimaux(liste1, liste2):
+    
+
+    symboles_hexadecimaux = (symbole_1, symbole_2)
 
     symbole_1 = 0
     symbole_2 = 0
-    symbole_3 = 0
 
     liste = liste1 + liste2
 
@@ -303,7 +304,7 @@ def contenu(liste1, liste2):
 
         print(symbole_1)
 
-        symboles_hexadecimaux_message += str(symbole_1) 
+        symboles_hexadecimaux += str(symbole_1) 
         for i in range(len(liste2)):
             symbole_2 += (liste2[-i-1]*(2**i))
         if symbole_2 == 10:
@@ -329,7 +330,7 @@ def contenu(liste1, liste2):
             for i in range(len(liste3)):
                 symbole += (liste3[-i-1]*(2**i))
             symbole = chr(s)
-            symboles_hexadecimaux_message += symbole
+            symboles_hexadecimaux += symbole
     print("message :", symboles_hexadecimaux)
 
 
