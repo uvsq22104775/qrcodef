@@ -289,13 +289,13 @@ def contenu(liste1, liste2):
         for i in range(len(liste1)):
             symbole_1 = symbole_1 + (liste1[-i-1]*(2**i))
         if symbole_1 == 10:
-            symbole_1 = "a"
+            symbole_1 = "A"
         if symbole_1 == 11:
-            symbole_1 = "b"
+            symbole_1 = "B"
         if symbole_1 == 12:
-           symbole_1 = "c"
+           symbole_1 = "C"
         if symbole_1 == 13:
-            symbole_1 =="d"
+            symbole_1 =="D"
         if symbole_1 == 14:
             symbole_1 = "E"
         if symbole_1 == 15:
